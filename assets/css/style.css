@@ -47,6 +47,10 @@ h3 {
     margin-left: 0.4rem;
 }
 
+.active {
+    border-bottom: 1px solid antiquewhite;
+}
+
 /* Navbar button */
 .join-us-button {
     padding: 0.3rem 0.62rem;
