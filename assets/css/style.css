@@ -10,6 +10,12 @@
     margin: 1.3rem;
     color: antiquewhite;
     background-color: #1f1f24;
+    font-family: "Hind Siliguri", sans-serif;
+}
+
+h2,
+h3 {
+    font-family: "Niconne", cursive;
 }
 
 /* Header */
