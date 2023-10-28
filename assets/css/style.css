@@ -40,3 +40,26 @@
 #logo {
     margin-left: 0.4rem;
 }
+
+/* Navbar button */
+.join-us-button {
+    padding: 0.3rem 0.62rem;
+    margin-right: 0.4rem;
+    background-color: antiquewhite;
+    border-radius: 4px;
+    transition: background-color 0.5s;
+}
+
+.join-us-button a {
+    color: #1f1f24;
+    font-size: 1.1rem;
+    transition: color 0.5s;
+}
+
+.join-us-button:hover {
+    background-color: #1f1f24;
+}
+
+.join-us-button a:hover {
+    color: antiquewhite;
+}
