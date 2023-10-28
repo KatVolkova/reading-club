@@ -11,3 +11,32 @@
     color: antiquewhite;
     background-color: #1f1f24;
 }
+
+/* Header */
+/* Navbar */
+.header-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid antiquewhite;
+    font-size: 1.25rem;
+}
+
+.header-navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-navbar li {
+    margin: 0.62rem;
+    list-style-type: none;
+}
+
+.header-navbar a {
+    color: antiquewhite;
+}
+
+#logo {
+    margin-left: 0.4rem;
+}
