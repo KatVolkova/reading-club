@@ -63,3 +63,35 @@
 .join-us-button a:hover {
     color: antiquewhite;
 }
+
+/* Footer */
+.social-networks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid antiquewhite;
+    font-size: 1.25rem;
+}
+
+.social-networks ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-networks li {
+    margin: 0.62rem;
+    list-style-type: none;
+}
+
+.social-networks a {
+    color: antiquewhite;
+}
+
+#paragraph-contact {
+    margin-left: 0.4rem;
+}
+
+footer .join-us-button a {
+    color: #1f1f24;
+}
