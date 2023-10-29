@@ -205,6 +205,52 @@ h3 {
     box-shadow: 0 5px 20px antiquewhite;
 }
 
+/* Reading Challenge Page */
+.challenge {
+    background-color: antiquewhite;
+    color: #1f1f24;
+    width: 56rem;
+    height: 12.5rem;
+    padding: 1.25rem;
+    margin: 1.25rem auto;
+    border-radius: 5px;
+}
+
+.challenge h2,
+.challenge p {
+    text-align: center;
+}
+
+.timetable {
+    width: 60rem;
+    height: 54rem;
+    background-color: antiquewhite;
+    margin: 1.25rem auto;
+    border-radius: 5px;
+
+}
+
+.timetable h2 {
+    color: #1f1f24;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.timetable li {
+    color: #1f1f24;
+}
+
+.timetable-list {
+    list-style-type: square;
+    color: #1f1f24;
+}
+
+.timetable-list span {
+    color: #1f1f24;
+    font-size: 1.12rem;
+    font-weight: 500;
+}
+
 /* Footer */
 .social-networks {
     display: flex;
