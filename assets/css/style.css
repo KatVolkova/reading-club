@@ -16,6 +16,11 @@
 h2,
 h3 {
     font-family: "Niconne", cursive;
+
+}
+
+.hidden {
+    display: none;
 }
 
 /* Header */
@@ -100,6 +105,59 @@ h3 {
 .hero p {
     font-size: 3rem;
     text-align: center;
+}
+
+/* Summary Section */
+.summary {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    /* width: 37.5rem;
+    height: 18.75; */
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px antiquewhite;
+}
+
+.card h3 {
+    margin: 20px;
+    text-align: center;
+    color: #1f1f24;
+}
+
+.card li {
+    margin: 20px;
+    list-style-type: none;
+    color: #1f1f24;
+}
+
+/* Learn More button */
+.learn-more-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #1f1f24;
+    border-radius: 4px;
+    transition: background-color 0.4s;
+}
+
+.learn-more-button a {
+    color: antiquewhite;
+    transition: color 0.4s;
+}
+
+.learn-more-button:hover {
+    background-color: antiquewhite;
+    border: 3px solid #1f1f24;
+}
+
+.learn-more-button a:hover {
+    color: #1f1f24;
 }
 
 /* Footer */
