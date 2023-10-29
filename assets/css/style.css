@@ -74,6 +74,34 @@ h3 {
     color: antiquewhite;
 }
 
+/* Main Content */
+/* Hero section */
+.hero {
+    background-image: url(../images/hero-image.webp);
+    background-position: center;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: ceter;
+}
+
+.hero-text {
+    margin: auto;
+}
+
+#main-heading {
+    text-align: center;
+    margin: 1.25rem;
+    font-family: "Crimson Text", serif;
+    font-size: 5.12rem;
+    letter-spacing: 0.13rem;
+}
+
+.hero p {
+    font-size: 3rem;
+    text-align: center;
+}
+
 /* Footer */
 .social-networks {
     display: flex;
