@@ -159,6 +159,23 @@ h3 {
     color: #1f1f24;
 }
 
+/* About Us Page */
+/* About Us section */
+.aboutus-section {
+    background-color: antiquewhite;
+    color: #1f1f24;
+    width: 56rem;
+    height: 12.5rem;
+    padding: 1.25rem;
+    margin: 1.25rem auto;
+    border-radius: 5px;
+}
+
+.aboutus-section h2,
+.aboutus-section p {
+    text-align: center;
+}
+
 /* Footer */
 .social-networks {
     display: flex;
