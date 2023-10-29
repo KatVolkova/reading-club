@@ -177,9 +177,10 @@ h3 {
 }
 
 .events {
-    margin: 1.25rem;
+    margin: 1.3rem 1rem;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .events-group {
@@ -195,10 +196,14 @@ h3 {
 .events-subgroup h3 {
     text-align: center;
     margin-bottom: 0.3rem;
-    text-decoration: underline;
+    border-bottom: 1px solid antiquewhite;
 }
 
+.aboutus-page-image {
 
+    border-radius: 6px;
+    box-shadow: 0 5px 20px antiquewhite;
+}
 
 /* Footer */
 .social-networks {
