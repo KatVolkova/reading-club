@@ -114,24 +114,22 @@ h3 {
 }
 
 .card {
-    /* width: 37.5rem;
-    height: 18.75; */
     background-color: antiquewhite;
-    padding: 20px;
-    margin: 20px;
+    padding: 1.25rem;
+    margin: 1.75rem 0;
     border: 1px solid black;
     border-radius: 5px;
     box-shadow: 0 10px 30px antiquewhite;
 }
 
 .card h3 {
-    margin: 20px;
+    margin: 1.25rem 0;
     text-align: center;
     color: #1f1f24;
 }
 
 .card li {
-    margin: 20px;
+    margin: 1.25rem;
     list-style-type: none;
     color: #1f1f24;
 }
@@ -139,21 +137,21 @@ h3 {
 /* Learn More button */
 .learn-more-button {
     display: block;
-    margin: 0 auto;
-    padding: 10px;
+    margin: auto;
+    padding: 0.625rem;
     background-color: #1f1f24;
     border-radius: 4px;
-    transition: background-color 0.4s;
+    transition: background-color 0.5s;
 }
 
 .learn-more-button a {
     color: antiquewhite;
-    transition: color 0.4s;
+    transition: color 0.5s;
 }
 
 .learn-more-button:hover {
     background-color: antiquewhite;
-    border: 3px solid #1f1f24;
+    border: 2px solid #1f1f24;
 }
 
 .learn-more-button a:hover {
