@@ -429,4 +429,15 @@ footer .join-us-button a {
     .hero p {
         font-size: 2.5rem;
     }
+
+    /* Summary Section */
+    .summary {
+        flex-direction: column;
+    }
+
+    .card {
+        margin: 1.75rem 1rem;
+    }
+
+
 }
