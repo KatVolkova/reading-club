@@ -222,33 +222,43 @@ h3 {
 }
 
 .timetable {
-    width: 60rem;
-    height: 54rem;
+    width: 35rem;
+    height: 41rem;
     background-color: antiquewhite;
     margin: 1.25rem auto;
     border-radius: 5px;
-
+    padding: 1.25rem;
 }
 
 .timetable h2 {
     color: #1f1f24;
-    padding: 1.25rem;
+    padding: .8rem;
+    text-align: center;
+}
+
+.timetable ul {
     text-align: center;
 }
 
 .timetable li {
     color: #1f1f24;
+    border-top: 1px solid #1f1f24;
+    border-bottom: 1px solid #1f1f24;
+    list-style-type: none;
+    padding: .2rem;
+
 }
 
-.timetable-list {
-    list-style-type: square;
+/* .timetable-list {
+   
     color: #1f1f24;
-}
+} */
 
 .timetable-list span {
     color: #1f1f24;
-    font-size: 1.12rem;
-    font-weight: 500;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Niconne", cursive;
 }
 
 /* Footer */
