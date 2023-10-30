@@ -206,6 +206,7 @@ h3 {
 }
 
 /* Reading Challenge Page */
+/* Heading Section */
 .challenge {
     background-color: antiquewhite;
     color: #1f1f24;
@@ -221,6 +222,7 @@ h3 {
     text-align: center;
 }
 
+/* Timetable Section */
 .timetable {
     width: 35rem;
     height: 41rem;
@@ -249,10 +251,7 @@ h3 {
 
 }
 
-/* .timetable-list {
-   
-    color: #1f1f24;
-} */
+
 
 .timetable-list span {
     color: #1f1f24;
