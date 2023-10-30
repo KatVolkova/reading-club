@@ -261,6 +261,31 @@ h3 {
     font-family: "Niconne", cursive;
 }
 
+/* Map */
+.meetup {
+    height: 15.6rem;
+    width: 43rem;
+    background-color: antiquewhite;
+    color: #1f1f24;
+    margin: 1.25rem auto;
+    display: flex;
+    justify-content: baseline;
+    border-radius: 5px;
+
+}
+
+.meetup-text {
+    margin: auto;
+    padding: 0.6rem;
+}
+
+.meetup-text h2,
+.meetup-text p {
+    text-align: center;
+}
+
+
+
 /* Footer */
 .social-networks {
     display: flex;
