@@ -32,6 +32,7 @@ h3 {
     align-items: center;
     border-bottom: 1px solid antiquewhite;
     font-size: 1.25rem;
+
 }
 
 .header-navbar ul {
@@ -251,8 +252,6 @@ h3 {
 
 }
 
-
-
 .timetable-list span {
     color: #1f1f24;
     font-size: 2rem;
@@ -437,6 +436,68 @@ footer .join-us-button a {
 
     .card {
         margin: 1.75rem 1rem;
+    }
+
+    /* About Us section */
+    .aboutus-section {
+        width: 20rem;
+        height: 22rem;
+        padding: 1rem;
+        margin: 1rem auto;
+    }
+
+    .events {
+        flex-direction: column;
+    }
+
+    .events-subgroup p {
+        text-align: center;
+
+    }
+
+    /* Reading Challenge Page */
+    /* Heading Section */
+    .challenge {
+        width: 20rem;
+        height: 23rem;
+        padding: .8rem;
+        margin: .7rem auto;
+    }
+
+    /* Timetable Section */
+    .timetable {
+        width: 20rem;
+        height: 51rem;
+        margin: .7rem auto;
+        padding: .8rem;
+    }
+
+    .timetable-list {
+        font-size: .9rem;
+    }
+
+    .timetable-list span {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    /* Map */
+    .meetup {
+        height: 30rem;
+        width: 20rem;
+        margin: 1rem auto;
+        flex-direction: column;
+
+    }
+
+    .meetup-text {
+        margin: auto;
+        padding: 0.6rem;
+    }
+
+    .meetup-text h2,
+    .meetup-text p {
+        text-align: center;
     }
 
     /* Footer */
