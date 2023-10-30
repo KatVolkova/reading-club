@@ -7,7 +7,7 @@
 }
 
 .container {
-    margin: 1.3rem;
+    /* margin: .5rem; */
     color: antiquewhite;
     background-color: #1f1f24;
     font-family: "Hind Siliguri", sans-serif;
@@ -388,4 +388,45 @@ h3 {
 
 footer .join-us-button a {
     color: #1f1f24;
+}
+
+/* Media queries */
+@media only screen and (max-width: 600px) {
+
+    /* Header Navbar */
+    .header-navbar {
+        flex-direction: column;
+        font-size: 0.9rem;
+        border-bottom: 1px solid antiquewhite;
+    }
+
+    .header-navbar ul {
+        flex-direction: column;
+        border: 1px solid antiquewhite;
+    }
+
+    .join-us-button {
+        padding: 0.3rem 0.3rem;
+        margin: .4rem 0;
+
+    }
+
+    .join-us-button a {
+        font-size: 0.9rem;
+    }
+
+    /* Hero section */
+    .hero {
+        height: 80vh;
+    }
+
+
+
+    #main-heading {
+        font-size: 5rem;
+    }
+
+    .hero p {
+        font-size: 2.5rem;
+    }
 }
