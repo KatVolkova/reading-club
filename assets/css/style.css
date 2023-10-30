@@ -6,8 +6,7 @@
     text-decoration: none;
 }
 
-.container {
-    /* margin: .5rem; */
+body {
     color: antiquewhite;
     background-color: #1f1f24;
     font-family: "Hind Siliguri", sans-serif;
@@ -83,6 +82,10 @@ h3 {
 
 /* Main Content */
 /* Hero section */
+.main {
+    flex: 1 0 auto;
+}
+
 .hero {
     background-image: url(../images/hero-image.webp);
     background-position: center;
