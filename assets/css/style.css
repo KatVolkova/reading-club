@@ -399,14 +399,14 @@ footer .join-us-button a {
 
     /* Header Navbar */
     .header-navbar {
-        flex-direction: column;
         font-size: 0.9rem;
-        border-bottom: 1px solid antiquewhite;
-    }
 
+
+    }
     .header-navbar ul {
         flex-direction: column;
         border: 1px solid antiquewhite;
+        display: none;
     }
 
     .join-us-button {
