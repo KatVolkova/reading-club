@@ -502,9 +502,10 @@ footer .join-us-button a {
 
 }
 
+/* Media query tablets: 658px and up) */
 @media only screen and (max-width: 658px) {
 
-
+    /* Home Page */
     header {
         position: relative;
     }
@@ -652,6 +653,37 @@ footer .join-us-button a {
 
     footer .join-us-button {
         margin-right: 0.6rem;
+    }
+
+    /* Media Query for extra small screens: 346px and up */
+
+    @media only screen and (max-width: 346px) {
+
+        /* Home Page */
+        #main-heading {
+            font-size: 3.8rem;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+        }
+
+    }
+
+    /* About Page */
+    .aboutus-section {
+        width: 15rem;
+        height: 30rem;
+    }
+
+    .aboutus-page-image {
+        display: none;
+    }
+
+    /* Reading Challenge Page */
+    .meetup {
+        width: 18rem;
+        height: 22rem;
     }
 
 }
