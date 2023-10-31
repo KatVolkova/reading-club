@@ -400,11 +400,17 @@ footer .join-us-button a {
     /* Header Navbar */
     .header-navbar {
         font-size: 0.9rem;
-        justify-content: space-between;
+        flex-direction: column;
     }
 
     #logo {
         display: none;
+    }
+
+
+    .menu-list {
+        flex-direction: column;
+        border: 1px solid antiquewhite;
     }
 
 
@@ -413,8 +419,10 @@ footer .join-us-button a {
         display: none;
     }
 
+
     #navbar-toggle:checked~.menu-list li {
         display: block;
+
     }
 
     #navbar-toggle {
