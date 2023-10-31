@@ -80,23 +80,19 @@ header {
     padding: 0.3rem 0.62rem;
     margin-right: 0.4rem;
     background-color: antiquewhite;
-    border-radius: 4px;
-    transition: background-color 0.5s;
-}
-
-.join-us-button a {
     color: #1f1f24;
     font-size: 1.1rem;
-    transition: color 0.5s;
+    border-radius: 4px;
+    transition: background-color 0.5s, color 0.5s;
 }
+
+
 
 .join-us-button:hover {
     background-color: #1f1f24;
-}
-
-.join-us-button a:hover {
     color: antiquewhite;
 }
+
 
 /* Main Content */
 /* Hero section */
@@ -159,23 +155,20 @@ header {
     margin: auto;
     padding: 0.625rem;
     background-color: #1f1f24;
+    color: antiquewhite;
     border-radius: 4px;
-    transition: background-color 0.5s;
+    transition: background-color 0.5s, color 0.5s;
 }
 
-.learn-more-button a {
-    color: antiquewhite;
-    transition: color 0.5s;
-}
+
 
 .learn-more-button:hover {
     background-color: antiquewhite;
     border: 2px solid #1f1f24;
-}
-
-.learn-more-button a:hover {
     color: #1f1f24;
 }
+
+
 
 /* About Us Page */
 /* About Us section */
