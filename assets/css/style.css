@@ -400,19 +400,35 @@ footer .join-us-button a {
     /* Header Navbar */
     .header-navbar {
         font-size: 0.9rem;
-
-
+        justify-content: space-between;
     }
-    .header-navbar ul {
-        flex-direction: column;
-        border: 1px solid antiquewhite;
+
+    #logo {
         display: none;
+    }
+
+
+
+    .menu-list li {
+        display: none;
+    }
+
+    #navbar-toggle:checked~.menu-list li {
+        display: block;
+    }
+
+    #navbar-toggle {
+        display: none;
+    }
+
+
+    i {
+        margin: .3rem 0 .7rem .3rem;
     }
 
     .join-us-button {
         padding: 0.3rem 0.3rem;
-        margin: .4rem 0;
-
+        margin: .3rem .7rem .3rem 0;
     }
 
     .join-us-button a {
