@@ -424,6 +424,19 @@ footer .join-us-button a {
 }
 
 /* Media queries */
+/* Media query: large devices (1400px and up)*/
+@media only screen and (min-width: 1400px) {
+
+    /* Home Page */
+    #main-heading {
+        font-size: 10rem;
+    }
+
+    .hero p {
+        font-size: 4rem;
+    }
+}
+
 @media only screen and (max-width: 742px) {
 
     .meetup {
@@ -453,6 +466,7 @@ footer .join-us-button a {
     }
 }
 
+/* Media query: desktops (1100px and up  */
 @media only screen and (max-width: 1100px) {
 
     /* About Us section */
@@ -600,7 +614,7 @@ footer .join-us-button a {
     }
 
     /* Join Us Page */
-    /* Join Us Form */
+
     .join-us-section {
         padding: 6.3rem 0 9.5rem 0;
     }
