@@ -28,18 +28,23 @@
 
 <body>
     <!-- Header -->
-    <header>
+    <header class="header">
+        <input type="checkbox" id="navbar-toggle" name="navbar-toggle" />
+        <label for="navbar-toggle" class="navbar-toggle-label">
+            <img src="./assets/images/reading-club-logo.png" alt="logo" id="logo" />
+        </label>
         <!-- Navbar -->
         <nav class="header-navbar">
-            <a href="./index.html" id="logo">Reading Club</a>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html" class="active">About</a></li>
+
+            <ul class="menu-list">
+                <li><a href="./index.html" class="active">Home</a></li>
+                <li><a href="./about.html">About</a></li>
                 <li><a href="./challenge.html">Reading Challenge</a></li>
+                <li>
+                    <a href="./joinus.html"><button class="join-us-button">Join Us</button></a>
+                </li>
             </ul>
-            <button class="join-us-button">
-                <a href="./joinus.html">Join Us</a>
-            </button>
+
         </nav>
     </header>
     <!-- Main -->

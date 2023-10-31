@@ -27,60 +27,65 @@
 </head>
 
 <body>
-    <div class="container">
-        <!-- Header -->
-        <header>
-            <!-- Navbar -->
-            <nav class="header-navbar">
-                <a href="./index.html" id="logo">Reading Club</a>
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./about.html">About</a></li>
-                    <li><a href="./challenge.html">Reading Challenge</a></li>
-                </ul>
-                <button class="join-us-button">
-                    <a href="./joinus.html">Join Us</a>
-                </button>
-            </nav>
-        </header>
-        <!-- Main -->
-        <main>
-            <!-- Join Us Form -->
-            <section class="join-us-section">
-                <form action="https://formdump.codeinstitute.net" method="POST" class="join-us-form">
-                    <h2 class="join-us-heading">Join us!</h2>
-                    <div class="input-group">
-                        <label for="name">Full Name</label>
-                        <input type="text" id="name" class="join-us-input" placeholder="Enter your name" required />
-                    </div>
 
-                    <div class="input-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" class="email-input" placeholder="Enter your email" required />
-                    </div>
-                    <input class="form-button" type="submit" value="Submit" />
-                </form>
-            </section>
-        </main>
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="social-networks">
-                <p id="paragraph-contact">Contact Us:</p>
-                <ul>
-                    <li><a href="mailto:rclub@readingclub.com">Email</a></li>
-                    <li>
-                        <a href="https://www.facebook.com" target="_blank">Facebook</a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com" target="_blank">Instagram</a>
-                    </li>
-                </ul>
-                <button class="join-us-button">
-                    <a href="./joinus.html">Join Us</a>
-                </button>
-            </div>
-        </footer>
-    </div>
+    <!-- Header -->
+    <header class="header">
+        <input type="checkbox" id="navbar-toggle" name="navbar-toggle" />
+        <label for="navbar-toggle" class="navbar-toggle-label">
+            <img src="./assets/images/reading-club-logo.png" alt="logo" id="logo" />
+        </label>
+        <!-- Navbar -->
+        <nav class="header-navbar">
+
+            <ul class="menu-list">
+                <li><a href="./index.html" class="active">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./challenge.html">Reading Challenge</a></li>
+                <li>
+                    <a href="./joinus.html"><button class="join-us-button">Join Us</button></a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+    <!-- Main -->
+    <main>
+        <!-- Join Us Form -->
+        <section class="join-us-section">
+            <form action="https://formdump.codeinstitute.net" method="POST" class="join-us-form">
+                <h2 class="join-us-heading">Join us!</h2>
+                <div class="input-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" class="join-us-input" placeholder="Enter your name" required />
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="email-input" placeholder="Enter your email" required />
+                </div>
+                <input class="form-button" type="submit" value="Submit" />
+            </form>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-networks">
+            <p id="paragraph-contact">Contact Us:</p>
+            <ul>
+                <li><a href="mailto:rclub@readingclub.com">Email</a></li>
+                <li>
+                    <a href="https://www.facebook.com" target="_blank">Facebook</a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com" target="_blank">Instagram</a>
+                </li>
+            </ul>
+            <button class="join-us-button">
+                <a href="./joinus.html">Join Us</a>
+            </button>
+        </div>
+    </footer>
+
 </body>
 
 </html>
