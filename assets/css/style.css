@@ -288,26 +288,43 @@ header {
 
 /* Map */
 .meetup {
-    height: 15.6rem;
-    width: 43rem;
+    height: 9rem;
+    width: 45rem;
     background-color: antiquewhite;
     color: #1f1f24;
     margin: 1.25rem auto;
     display: flex;
-    justify-content: baseline;
+    justify-content: space-evenly;
     border-radius: 5px;
 
 }
 
 .meetup-text {
     margin: auto;
-    padding: 0.6rem;
+    padding: 0 0.5rem 0.9rem 0;
 }
 
 .meetup-text h2,
 .meetup-text p {
     text-align: center;
 }
+
+#bookstore-map {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+#iframe-map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
 
 /* Join Us Page */
 /* Join Us Form */
@@ -417,6 +434,55 @@ footer .join-us-button a {
 }
 
 /* Media queries */
+@media only screen and (max-width: 1100px) {
+
+    /* About Us section */
+    .aboutus-section {
+        width: 20rem;
+        height: 22rem;
+        padding: 1rem;
+        margin: 1rem auto;
+    }
+
+    .events {
+        flex-direction: column;
+    }
+
+    .events-subgroup p {
+        text-align: center;
+
+    }
+
+    /* Reading Challenge Page */
+    /* Heading Section */
+
+    .challenge {
+        width: 40rem;
+        height: 12rem;
+        padding: .6rem;
+        margin: .7rem auto;
+    }
+
+    /* Timetable Section */
+    .timetable {
+        width: 40rem;
+        height: 38rem;
+        margin: .7rem auto;
+        padding: .6rem;
+    }
+
+    .timetable-list {
+        font-size: 1.2rem;
+    }
+
+    .timetable-list span {
+        font-size: 1.7rem;
+        font-weight: 500;
+    }
+
+
+}
+
 @media only screen and (max-width: 600px) {
 
 
@@ -476,22 +542,7 @@ footer .join-us-button a {
         margin: 1.75rem 1rem;
     }
 
-    /* About Us section */
-    .aboutus-section {
-        width: 20rem;
-        height: 22rem;
-        padding: 1rem;
-        margin: 1rem auto;
-    }
 
-    .events {
-        flex-direction: column;
-    }
-
-    .events-subgroup p {
-        text-align: center;
-
-    }
 
     /* Reading Challenge Page */
     /* Heading Section */
