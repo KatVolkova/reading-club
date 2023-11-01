@@ -235,7 +235,7 @@ header {
 
 /* Timetable Section */
 .timetable {
-    width: 35rem;
+    width: 56rem;
     height: 41rem;
     background-color: antiquewhite;
     margin: 1.25rem auto;
@@ -250,7 +250,7 @@ header {
 }
 
 .timetable ul {
-    text-align: center;
+    text-align: left;
 }
 
 .timetable li {
@@ -264,7 +264,7 @@ header {
 
 .timetable-list span {
     color: #1f1f24;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     font-family: "Niconne", cursive;
 }
