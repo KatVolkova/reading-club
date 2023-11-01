@@ -77,16 +77,20 @@ header {
 
 /* Navbar button */
 .join-us-button {
-    padding: 0.3rem 0.62rem;
+    padding: 0.1rem 0.5rem;
     margin-right: 0.4rem;
     background-color: antiquewhite;
-    color: #1f1f24;
-    font-size: 1.1rem;
     border-radius: 4px;
+    border: 3px solid antiquewhite;
     transition: background-color 0.5s, color 0.5s;
 }
 
-
+a.join-us-button {
+    color: #1f1f24;
+    font-family: "Hind Siliguri", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
 
 .join-us-button:hover {
     background-color: #1f1f24;
@@ -235,7 +239,7 @@ header {
 
 /* Timetable Section */
 .timetable {
-    width: 56rem;
+    width: 40rem;
     height: 41rem;
     background-color: antiquewhite;
     margin: 1.25rem auto;
@@ -264,7 +268,7 @@ header {
 
 .timetable-list span {
     color: #1f1f24;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 700;
     font-family: "Niconne", cursive;
 }
@@ -385,6 +389,12 @@ header {
 
 
 /* Footer */
+
+footer {
+    height: 3.28rem;
+    margin-top: auto;
+}
+
 .social-networks {
     display: flex;
     justify-content: space-between;
@@ -405,16 +415,14 @@ header {
 }
 
 .social-networks a {
-    color: antiquewhite;
+    color: #1f1f24;
 }
 
 #paragraph-contact {
     margin-left: 0.4rem;
 }
 
-footer .join-us-button a {
-    color: #1f1f24;
-}
+
 
 /* Media queries */
 /* Media query: large devices (1400px and up)*/
