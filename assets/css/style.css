@@ -156,11 +156,12 @@ a.join-us-button {
 /* Learn More button */
 .learn-more-button {
     display: block;
-    margin: auto;
+    text-align: center;
     padding: 0.625rem;
     background-color: #1f1f24;
     color: antiquewhite;
     border-radius: 4px;
+    font-size: 1.2rem;
     transition: background-color 0.5s, color 0.5s;
 }
 
@@ -415,6 +416,10 @@ footer {
 }
 
 .social-networks a {
+    color: antiquewhite;
+}
+
+.joinus-link {
     color: #1f1f24;
 }
 
