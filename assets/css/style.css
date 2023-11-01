@@ -394,14 +394,18 @@ a.join-us-button {
 footer {
     height: 3.28rem;
     margin-top: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid antiquewhite;
+    font-size: 1.25rem;
 }
 
 .social-networks {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 1px solid antiquewhite;
-    font-size: 1.25rem;
+
 }
 
 .social-networks ul {
@@ -419,9 +423,7 @@ footer {
     color: antiquewhite;
 }
 
-.joinus-link {
-    color: #1f1f24;
-}
+
 
 #paragraph-contact {
     margin-left: 0.4rem;
@@ -443,35 +445,6 @@ footer {
     }
 }
 
-@media only screen and (max-width: 742px) {
-
-    .meetup {
-
-        width: 40rem;
-    }
-
-    /* Join Us Page */
-    /* Join Us Form */
-
-
-    .join-us-form {
-        width: 40rem;
-
-    }
-
-    .input-group input {
-        font-size: 1rem;
-        padding: 0.5rem;
-    }
-
-    .form-button {
-
-        font-weight: 700;
-        letter-spacing: 0.06rem;
-        margin-top: .31rem;
-    }
-}
-
 /* Media query: desktops (1100px and up  */
 @media only screen and (max-width: 1100px) {
 
@@ -489,7 +462,6 @@ footer {
 
     .events-subgroup p {
         text-align: center;
-
     }
 
     /* Reading Challenge Page */
@@ -498,16 +470,16 @@ footer {
     .challenge {
         width: 40rem;
         height: 12rem;
-        padding: .6rem;
-        margin: .7rem auto;
+        padding: 0.6rem;
+        margin: 0.7rem auto;
     }
 
     /* Timetable Section */
     .timetable {
         width: 40rem;
         height: 38rem;
-        margin: .7rem auto;
-        padding: .6rem;
+        margin: 0.7rem auto;
+        padding: 0.6rem;
     }
 
     .timetable-list {
@@ -519,34 +491,57 @@ footer {
         font-weight: 500;
     }
 
+    .meetup {
+        height: 9rem;
+        width: 40rem;
+    }
+}
 
+/* Media query: 742px and up */
+@media only screen and (max-width: 742px) {
+
+    /* Join Us Page */
+    /* Join Us Form */
+    .join-us-form {
+        width: 40rem;
+    }
+
+    .input-group input {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+
+    .form-button {
+        font-weight: 700;
+        letter-spacing: 0.06rem;
+        margin-top: 0.31rem;
+    }
 }
 
 /* Media query tablets: 658px and up) */
 @media only screen and (max-width: 658px) {
-
     /* Home Page */
-    header {
-        position: relative;
-    }
+    /* header {
+    position: relative;
+  }
 
-    .menu-list {
-        position: absolute;
-        top: 80px;
-        left: 0;
-        flex-direction: column;
-        width: 100%;
-        background-color: #1f1f24;
-        border-bottom: 1px solid antiquewhite;
-    }
+  .menu-list {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    background-color: #1f1f24;
+    border-bottom: 1px solid antiquewhite;
+  }
 
-    .menu-list li {
-        display: none;
-    }
+  .menu-list li {
+    display: none;
+  }
 
-    #navbar-toggle:checked~.header-navbar li {
-        display: block;
-    }
+  #navbar-toggle:checked ~ .header-navbar li {
+    display: block;
+  } */
 
     .join-us-button {
         padding: 0.3rem 0.3rem;
@@ -557,13 +552,10 @@ footer {
         font-size: 0.9rem;
     }
 
-
     /* Hero section */
     .hero {
         height: 80vh;
     }
-
-
 
     #main-heading {
         font-size: 5rem;
@@ -582,27 +574,25 @@ footer {
         margin: 1.75rem 1rem;
     }
 
-
-
     /* Reading Challenge Page */
     /* Heading Section */
     .challenge {
         width: 20rem;
         height: 23rem;
-        padding: .8rem;
-        margin: .7rem auto;
+        padding: 0.8rem;
+        margin: 0.7rem auto;
     }
 
     /* Timetable Section */
     .timetable {
         width: 20rem;
         height: 51rem;
-        margin: .7rem auto;
-        padding: .8rem;
+        margin: 0.7rem auto;
+        padding: 0.8rem;
     }
 
     .timetable-list {
-        font-size: .9rem;
+        font-size: 0.9rem;
     }
 
     .timetable-list span {
@@ -616,7 +606,6 @@ footer {
         width: 20rem;
         margin: 1rem auto;
         flex-direction: column;
-
     }
 
     /* Join Us Page */
@@ -642,23 +631,18 @@ footer {
         font-size: 1rem;
     }
 
-
-
-
     .input-group input {
-        font-size: .8rem;
+        font-size: 0.8rem;
         padding: 0.25rem;
-
     }
 
     .form-button {
-        padding: .45rem;
+        padding: 0.45rem;
         font-size: 1rem;
         font-weight: 600;
         letter-spacing: 0.06rem;
-        margin-top: .31rem;
+        margin-top: 0.31rem;
     }
-
 
     /* Footer */
 
@@ -675,9 +659,35 @@ footer {
         margin-right: 0.6rem;
     }
 
-    /* Media Query for extra small screens: 346px and up */
+    /* Media Query for mobile phones: 510px and up */
+    @media only screen and (max-width: 510px) {
 
-    @media only screen and (max-width: 346px) {
+        /* Home Page */
+        header {
+            position: relative;
+        }
+
+        .menu-list {
+            position: absolute;
+            top: 80px;
+            left: 0;
+            flex-direction: column;
+            width: 100%;
+            background-color: #1f1f24;
+            border-bottom: 1px solid antiquewhite;
+        }
+
+        .menu-list li {
+            display: none;
+        }
+
+        #navbar-toggle:checked~.header-navbar li {
+            display: block;
+        }
+    }
+
+    /* Media Query for extra small screens: 320px */
+    @media only screen and (min-width: 320px) {
 
         /* Home Page */
         #main-heading {
@@ -687,7 +697,6 @@ footer {
         .hero p {
             font-size: 1.5rem;
         }
-
     }
 
     /* About Page */
@@ -696,14 +705,28 @@ footer {
         height: 30rem;
     }
 
-    .aboutus-page-image {
-        display: none;
+    /* Reading Challenge Page */
+    /* Heading Section */
+    .challenge {
+        width: 18rem;
+        height: 26rem;
+        padding: 0.8rem;
+        margin: 0.7rem auto;
     }
 
-    /* Reading Challenge Page */
+    /* Timetable Section */
+    .timetable {
+        width: 18rem;
+        height: 51rem;
+    }
+
     .meetup {
         width: 18rem;
         height: 22rem;
     }
 
+    /* Join Us form */
+    .join-us-form {
+        width: 18rem;
+    }
 }
