@@ -255,7 +255,7 @@ a.join-us-button {
 }
 
 .timetable ul {
-    text-align: left;
+    text-align: center;
 }
 
 .timetable li {
@@ -264,13 +264,15 @@ a.join-us-button {
     border-bottom: 1px solid #1f1f24;
     list-style-type: none;
     padding: .2rem;
+    letter-spacing: 0.1rem;
+    font-size: 1.1rem;
 
 }
 
 .timetable-list span {
     color: #1f1f24;
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 500;
     font-family: "Niconne", cursive;
 }
 
@@ -332,7 +334,6 @@ a.join-us-button {
 .join-us-form {
     width: 43rem;
     height: 31rem;
-    /* background-image: url(../images/schedule.jpeg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -394,9 +395,7 @@ a.join-us-button {
 footer {
     height: 3.28rem;
     margin-top: auto;
-    /* display: flex;
-    justify-content: space-evenly;
-    align-items: center; */
+
 
 }
 
