@@ -157,6 +157,6 @@ Validator testing was carried out using the following:
 ## Credits
 
 - Templates for a Logo and favicon have been taken and customised using [Canva](https://www.canva.com/)
-- Pictures have been taken from [Pexels] (<https://www.pexels.com/>)
-- Fonts have been used from [Google Fonts] (<https://fonts.google.com/>)
+- Pictures have been taken from [Pexels](https://www.pexels.com/)
+- Fonts have been used from [Google Fonts](https://fonts.google.com/)
 - The list of literary genres was taken from [Wikipedia](https://en.wikipedia.org/wiki/List_of_writing_genres)
