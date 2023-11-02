@@ -21,7 +21,7 @@ Reading Club is a website created to attract those interested in reading. The ta
   - [Design](#design)
     - [Colour Scheme](#colour-scheme)
     - [Typography](#typography)
-    - [Imagery](#imagery)
+    - [Images](#images)
   - [Technologies Used](#technologies-used)
     - [Languages Used](#languages-used)
     - [Programs Used](#programs-used)
@@ -94,32 +94,19 @@ Colours used:
 - background colour `#1f1f24`  
 - font colour `#FAEBD7`
 
+The colours above create the right contrast and contribute to the site's readability.
+
 ### Typography
 
 Google fonts have been used for this website
 
-* For the Page Title I have used the google font [Hind Siliguri](https://fonts.google.com/specimen/Almendra?preview.text=The%20Quiz%20Arms%20THE%20QUIZ%20ARMS&preview.text_type=custom&query=almendra).
+- Hind Siliguri font style has been used as the general font .
+- Crimson Text font style has been used for the h1 heading.
+- Niconne has font style been used for all heading apart from the h1 heading.
 
-![Almendra Font Example](documentation/almendra.webp)
+### Images
 
-* For the body of the page I have used the google font [Crimson Text](https://fonts.google.com/specimen/Quicksand?preview.text=The%20Quiz%20Arms%20THE%20QUIZ%20ARMS&preview.text_type=custom&query=quicksand).
-
-![Quicksand Font Example](documentation/quicksand.webp)
-
-For the body of the page I have used the google font [Niconne](https://fonts.google.com/specimen/Quicksand?preview.text=The%20Quiz%20Arms%20THE%20QUIZ%20ARMS&preview.text_type=custom&query=quicksand).
-
-
-
-### Imagery
-
-Pexels
-
-
-
-
-
-
-
+Pictures have been taken from [Pexels.com] (https://www.pexels.com/)
 
 ## Technologies Used
 
@@ -129,22 +116,14 @@ HTML, CSS
 
 ### Programs Used
 
-
 - [Git](https://git-scm.com/) - For version control.
-
 - [Github](https://github.com/) - To save and store the files for the website.
-
 - [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
-
 - [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
-
 - [Canva.com](https://canva.com/) To create and customise favicon and logo
-
 - [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
-
-- [Shields.io](https://shields.io/) To add badges to the README
-
-- [Webpage Spell-Check](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik/related) - a google chrome extension that allows you to spell check your webpage. Used to check the site and the readme for spelling errors.
+- [Grammarly](https://app.grammarly.com/ ) - has been used for spell-checking
+- Codeanywhere has been used as IDE
 
 - - -
 
@@ -163,8 +142,27 @@ To Deploy the site using GitHub Pages:
 
 ## Testing
 
+Validator testing was carried out using the following:
+
+- HTML No errors were returned when passing through the official [W3C validator] (<https://validator.w3.org/>) only the following info tags:
+ ![Info tag](/assets/images/htmlvalidation_info.jpg) 
+- CSS No errors were found when passing through the official [Jigsaw validator] (https://jigsaw.w3.org/css-validator/)
+  
 ### Solved Bugs
+
+- The error identified in the middle of the project is the use of a combination of a button and a link element, as the button element cannot be a child decedent of a link and vice versa. This error has been fixed by leaving the link only and styling it as a button using CSS.
+	 
+- Join Us button had the same colour applied for both the background and the border properties. This error has been fixed by removing the border colour.
+	 
+- Spelling mistake for align-items attribute value: 
+	center has been correct.
+
 |
 - - -
+
 ## Credits
 
+- Templates for a Logo and favicon have been taken and customised using [Canva.com](https://www.canva.com/)
+- Pictures have been taken from [Pexels.com] (https://www.pexels.com/)
+- Fonts have been used from [Google Fonts] (https://fonts.google.com/)
+- The list of literary genres was taken from [Wikipedia](https://en.wikipedia.org/wiki/List_of_writing_genres)
