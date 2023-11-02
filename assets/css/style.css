@@ -81,8 +81,8 @@ header {
     margin-right: 0.4rem;
     background-color: antiquewhite;
     border-radius: 4px;
-    border: 3px solid antiquewhite;
-    transition: background-color 0.5s, color 0.5s;
+    border: 3px solid #1f1f24;
+    transition: background-color 0.5s, color 0.5s, border-color 0.5s;
 }
 
 a.join-us-button {
@@ -95,6 +95,7 @@ a.join-us-button {
 .join-us-button:hover {
     background-color: #1f1f24;
     color: antiquewhite;
+    border-color: antiquewhite;
 }
 
 
@@ -106,7 +107,7 @@ a.join-us-button {
     height: 95vh;
     display: flex;
     justify-content: center;
-    align-items: ceter;
+    align-items: center;
 }
 
 .hero-text {
