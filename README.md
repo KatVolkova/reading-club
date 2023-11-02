@@ -1,6 +1,6 @@
 # Reading Club
 
-![Reading Club website shown on a variety of screen sizes](./assets/images/reading-club.jpg)
+![Reading Club website shown on a variety of screen sizes](/assets/images/reading-club.jpg)
 
 Visit the deployed site: [Reading Club](https://github.com/KatVolkova/reading-club)
 
