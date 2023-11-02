@@ -39,7 +39,7 @@ Reading Club is a website created to attract those interested in reading. The ta
 ![Navigation Section](/assets/images/navigation-reading-club.jpg)
 ![Navigation Section for Mobile Phones](/assets/images/navigation-mobile-reading-club.jpg)
 
-Each of four pages has a responsive navigation bar that consists of a Logo (used as a toggler for mobile phone screens, links to Home page, About Us page, Reading  Challenge page and Join Us  page. 
+Each of four pages has a responsive navigation bar that consists of a Logo (used as a toggler for mobile phone screens, links to Home page, About Us page, Reading  Challenge page and Join Us  page.
 
 ### Hero Image
 
@@ -149,8 +149,7 @@ Validator testing was carried out using the following:
 	 
 - Join Us button had the same colour applied for both the background and the border properties. This error has been fixed by removing the border colour.
 	 
-- Spelling mistake for align-items attribute value: 
-	center has been correct.
+- Spelling mistake for align-items attribute value:center has been correct.
 
 |
 - - -
