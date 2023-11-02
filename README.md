@@ -7,7 +7,7 @@ Visit the deployed site: [Reading Club](https://github.com/KatVolkova/reading-cl
 Reading Club is a website created to attract those interested in reading. The target audience for this site is avid readers who would like to expand their knowledge on numerous literary genres, express their thoughts by sharing reviews and participating in the readers' community, enjoy book quizzes and take part in reading challenges.
 
 ## Table of Contents
-   
+  
 - [Reading Club](#reading-club)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
@@ -39,51 +39,46 @@ Reading Club is a website created to attract those interested in reading. The ta
 ![Navigation Section](/assets/images/navigation-reading-club.jpg)
 ![Navigation Section for Mobile Phones](/assets/images/navigation-mobile-reading-club.jpg)
 
-Each of four pages has a responsive navigation bar that consists of a Logo (used as a toggler for mobile phone screens, links to Home page, About Us page, Reading  Challenge page and Join Us  page.
+Each of four pages has a responsive navigation bar that consists of a Logo (used as a toggler for mobile phone screens, links to Home page, About Us page, Reading  Challenge page and Join Us  page. 
 
 ### Hero Image
 
 ![Hero Image](/assets/images/hero-page-reading-club.jpg)
 
-The hero section includes an image with Reading Club heading and  a quote that suits the idea of the site
+The hero section includes an image with Reading Club heading and  a quote that suits the idea of the site. This image has been selected to provide clear visual clue what the site is about.
 
 ### The summary section
 
 ![Summary Section](/assets/images/summary2-section-reading-club.jpg)
 
-The summary section provides a very brief introduction to what users  can expect from the website
+The summary section provides a very brief introduction to what users  can expect from the website. Learn More links direct users to the relevant pages of the website.
 
 ### Footer
 
 ![Footer](/assets/images/footer-reading-club.jpg)
 
-The footer section features social network links and  an email link as well join us  button to ensure that users have different means to keep track of the events promoted by the website
+The footer section features social network links and an email link as well join us  button to ensure that users have different means to keep track of the events organised by the Reading club community.
 
 ### About Us page
 
 ![About Us Page](/assets/images/about-page-reading-club.jpg)
 
-	About Us page provides users with events that participants can take part in. 
-	About us section summarises the activities that are offered to users such as Book recommendations, readers community, readers reviews and quizzes
-    Events section gives a more detailed description of each activity  and also includes an  image in the middle
+About Us page provides users with events that participants can take part in.About us section summarises the activities that are offered to users such as Book recommendations, readers community, readers reviews and quizzes
+Events section gives a more detailed description of each activity  and also includes an  image in the middle.
 
 ### Reading Challenge page
 
 ![Reading Challenge Page](/assets/images/reading-challenge-page-reading-club.jpg)
 
-	Reading challenge page introduces the idea of the reading challenges and explains the reasons for users to participate
-	Value
-	
-	The Monthly schedule section provides a list of reading challenges for each month. There is a specific genre for each month
-	Value
-	
-	The meet up point section is targeted  at those who live or visit London at the time of meet up, it also provides a map where the meet ups could be hosted for a small group of people
+Reading challenge page introduces the idea of the reading challenges and explains the reasons for users to participate
+The Monthly schedule section provides a list of reading challenges for each month. There is a specific genre for each month
+The meet up point section is targeted  at those who live or visit London at the time of meet up, it also provides a map where the meet ups could be hosted for a small group of people.
 
 ### Join Us page
 
 ![Join Us Page](/assets/images/join-us-page-reading-club.jpg)
 
-	Join us page includes the simple sign up form for those who want to be a part of the readers community and benefit from the various events
+Join us page includes the simple sign up form for those who want to be a part of the readers community and benefit from the various events.
 
 ## Design
 
@@ -106,7 +101,7 @@ Google fonts have been used for this website
 
 ### Images
 
-Pictures have been taken from [Pexels.com] (https://www.pexels.com/)
+Pictures have been taken from [Pexels] (<https://www.pexels.com/search/books/>)
 
 ## Technologies Used
 
@@ -145,8 +140,8 @@ To Deploy the site using GitHub Pages:
 Validator testing was carried out using the following:
 
 - HTML No errors were returned when passing through the official [W3C validator] (<https://validator.w3.org/>) only the following info tags:
- ![Info tag](/assets/images/htmlvalidation_info.jpg) 
-- CSS No errors were found when passing through the official [Jigsaw validator] (https://jigsaw.w3.org/css-validator/)
+![Join Us Page](/assets/images/htmlvalidation_info.jpg)
+- CSS No errors were found when passing through the official [Jigsaw validator] (<https://jigsaw.w3.org/css-validator/>)
   
 ### Solved Bugs
 
@@ -162,7 +157,7 @@ Validator testing was carried out using the following:
 
 ## Credits
 
-- Templates for a Logo and favicon have been taken and customised using [Canva.com](https://www.canva.com/)
-- Pictures have been taken from [Pexels.com] (https://www.pexels.com/)
-- Fonts have been used from [Google Fonts] (https://fonts.google.com/)
+- Templates for a Logo and favicon have been taken and customised using [Canva](https://www.canva.com/)
+- Pictures have been taken from [Pexels] (<https://www.pexels.com/>)
+- Fonts have been used from [Google Fonts] (<https://fonts.google.com/>)
 - The list of literary genres was taken from [Wikipedia](https://en.wikipedia.org/wiki/List_of_writing_genres)
