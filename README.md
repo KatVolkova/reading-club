@@ -36,33 +36,32 @@ Reading Club is a website created to attract those interested in reading. The ta
 
 ### Navigation bar
 
-![Navigation Section](./assets/images/navigation-reading-club.jpg)
-![Navigation Section for Mobile Phones](./assets/images/navigation-mobile-reading-club.jpg)
-
+![Navigation Section](/assets/images/navigation-reading-club.jpg)
+![Navigation Section for Mobile Phones](/assets/images/navigation-mobile-reading-club.jpg)
 
 Each of four pages has a responsive navigation bar that consists of a Logo (used as a toggler for mobile phone screens, links to Home page, About Us page, Reading  Challenge page and Join Us  page.
 
 ### Hero Image
 
-![Hero Image](./assets/images/hero-page-reading-club.jpg)
+![Hero Image](/assets/images/hero-page-reading-club.jpg)
 
 The hero section includes an image with Reading Club heading and  a quote that suits the idea of the site
 
 ### The summary section
 
-![Summary Section](./assets/images/summary2-section-reading-club.jpg)
+![Summary Section](/assets/images/summary2-section-reading-club.jpg)
 
 The summary section provides a very brief introduction to what users  can expect from the website
 
 ### Footer
 
-![Footer](./assets/images/footer-reading-club.jpg)
+![Footer](/assets/images/footer-reading-club.jpg)
 
 The footer section features social network links and  an email link as well join us  button to ensure that users have different means to keep track of the events promoted by the website
 
 ### About Us page
 
-![About Us Page](./assets/images/about-page-reading-club.jpg)
+![About Us Page](/assets/images/about-page-reading-club.jpg)
 
 	About Us page provides users with events that participants can take part in. 
 	About us section summarises the activities that are offered to users such as Book recommendations, readers community, readers reviews and quizzes
@@ -70,7 +69,7 @@ The footer section features social network links and  an email link as well join
 
 ### Reading Challenge page
 
-![Reading Challenge Page](./assets/images/reading-challenge-page-reading-club.jpg)
+![Reading Challenge Page](/assets/images/reading-challenge-page-reading-club.jpg)
 
 	Reading challenge page introduces the idea of the reading challenges and explains the reasons for users to participate
 	Value
@@ -82,7 +81,7 @@ The footer section features social network links and  an email link as well join
 
 ### Join Us page
 
-![Join Us Page](./assets/images/join-us-page-reading-club.jpg)
+![Join Us Page](/assets/images/join-us-page-reading-club.jpg)
 
 	Join us page includes the simple sign up form for those who want to be a part of the readers community and benefit from the various events
 
@@ -99,13 +98,15 @@ Colours used:
 
 Google fonts have been used for this website
 
-* For the Page Title I have used the google font [Almendra](https://fonts.google.com/specimen/Almendra?preview.text=The%20Quiz%20Arms%20THE%20QUIZ%20ARMS&preview.text_type=custom&query=almendra).
+* For the Page Title I have used the google font [Hind Siliguri](https://fonts.google.com/specimen/Almendra?preview.text=The%20Quiz%20Arms%20THE%20QUIZ%20ARMS&preview.text_type=custom&query=almendra).
 
 ![Almendra Font Example](documentation/almendra.webp)
 
-* For the body of the page I have used the google font [Quicksand](https://fonts.google.com/specimen/Quicksand?preview.text=The%20Quiz%20Arms%20THE%20QUIZ%20ARMS&preview.text_type=custom&query=quicksand).
+* For the body of the page I have used the google font [Crimson Text](https://fonts.google.com/specimen/Quicksand?preview.text=The%20Quiz%20Arms%20THE%20QUIZ%20ARMS&preview.text_type=custom&query=quicksand).
 
 ![Quicksand Font Example](documentation/quicksand.webp)
+
+For the body of the page I have used the google font [Niconne](https://fonts.google.com/specimen/Quicksand?preview.text=The%20Quiz%20Arms%20THE%20QUIZ%20ARMS&preview.text_type=custom&query=quicksand).
 
 
 
