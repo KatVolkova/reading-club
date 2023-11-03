@@ -26,6 +26,16 @@ h3 {
     display: none;
 }
 
+.active {
+    border-bottom: 1px solid antiquewhite;
+}
+
+span {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: "Niconne", cursive;
+}
+
 /* Header */
 header {
     position: sticky;
@@ -82,9 +92,7 @@ header {
     border: 3px solid antiquewhite;
 }
 
-.active {
-    border-bottom: 1px solid antiquewhite;
-}
+
 
 /* Navbar button */
 .join-us-button {
@@ -196,13 +204,7 @@ a.join-us-button {
 /* About Us Page */
 /* About Us section */
 .aboutus-section {
-    background-color: antiquewhite;
-    color: #1f1f24;
-    width: 56rem;
-    height: 12.5rem;
-    padding: 1.25rem;
-    margin: 1.25rem auto;
-    border-radius: 50px;
+    padding: 1rem;
 }
 
 .aboutus-section h2,
@@ -210,9 +212,6 @@ a.join-us-button {
     text-align: center;
 }
 
-.aboutus-section p {
-    margin-top: 1rem;
-}
 
 .events {
     margin: 1.3rem 1rem;
@@ -246,13 +245,8 @@ a.join-us-button {
 /* Reading Challenge Page */
 /* Heading Section */
 .challenge {
-    background-color: antiquewhite;
-    color: #1f1f24;
-    width: 40rem;
-    height: 15rem;
     padding: 1.25rem;
-    margin: 1.25rem auto;
-    border-radius: 50px;
+
 }
 
 .challenge h2,
@@ -301,12 +295,7 @@ a.join-us-button {
     color: #1f1f24;
 }
 
-span {
-    /* color: #1f1f24; */
-    font-size: 2rem;
-    font-weight: 500;
-    font-family: "Niconne", cursive;
-}
+
 
 /* Map */
 .meetup {
@@ -369,9 +358,6 @@ span {
 .join-us-form {
     width: 43rem;
     height: 31rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -475,6 +461,7 @@ footer {
 @media only screen and (min-width: 1400px) {
 
     /* Home Page */
+    /* Heading Section */
     #main-heading {
         font-size: 10rem;
     }
@@ -484,7 +471,7 @@ footer {
     }
 
     /* Reading Challenge Page */
-    /* Heading Section */
+
     .challenge {
         background-color: antiquewhite;
         color: #1f1f24;
@@ -509,6 +496,20 @@ footer {
     }
 }
 
+/* Media query: desktops (1100px and up  */
+@media only screen and (max-width: 1100px) {
+
+    /* About Us section */
+
+
+    .events {
+        flex-direction: column;
+    }
+
+    .events-subgroup p {
+        text-align: center;
+    }
+}
 
 /* Media query: 742px and up */
 @media only screen and (max-width: 742px) {
@@ -724,6 +725,11 @@ footer {
         display: block;
     }
 
+
+
+
+    /* Challenge */
+
     .challenge {
         height: 25rem;
         width: 19rem;
@@ -753,9 +759,10 @@ footer {
     }
 
     /* About Page */
-    .aboutus-section {
-        width: 15rem;
-        height: 30rem;
+
+
+    .aboutus-page-image {
+        display: none;
     }
 
     /* Reading Challenge Page */
