@@ -720,6 +720,11 @@ footer {
     #navbar-toggle:checked~nav {
         display: block;
     }
+
+    .challenge {
+        height: 25rem;
+        width: 19rem;
+    }
 }
 
 /* Media Query for extra small screens: 320px */
