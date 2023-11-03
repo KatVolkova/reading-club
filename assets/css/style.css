@@ -71,10 +71,12 @@ header {
 }
 
 #logo {
-    height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 80px;
+    border-radius: 50%;
+    border: 3px solid antiquewhite;
 }
 
 .active {
