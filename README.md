@@ -101,7 +101,7 @@ Google fonts have been used for this website
 
 ### Images
 
-Pictures have been taken from [Pexels] (<https://www.pexels.com/search/books/>)
+Pictures have been taken from [Pexels](https://www.pexels.com/search/books/)
 
 ## Technologies Used
 
@@ -139,9 +139,8 @@ To Deploy the site using GitHub Pages:
 
 Validator testing was carried out using the following:
 
-- HTML No errors were returned when passing through the official [W3C validator] (<https://validator.w3.org/>) only the following info tags:
-![Join Us Page](/assets/images/htmlvalidation_info.jpg)
-- CSS No errors were found when passing through the official [Jigsaw validator] (<https://jigsaw.w3.org/css-validator/>)
+- HTML No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
+- CSS No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
   
 ### Solved Bugs
 
