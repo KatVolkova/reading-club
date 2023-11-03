@@ -284,6 +284,12 @@ a.join-us-button {
 
 }
 
+.timetable-list i {
+    font-size: 1.2rem;
+    margin-right: 0.4rem;
+    color: #1f1f24;
+}
+
 .timetable-list span {
     color: #1f1f24;
     font-size: 2rem;
@@ -731,7 +737,14 @@ footer {
     /* Timetable Section */
     .timetable {
         width: 18rem;
-        height: 43rem;
+        height: 35rem;
+    }
+
+    .timetable li {
+        padding: .2rem;
+        letter-spacing: 0.05rem;
+        font-size: 0.8rem;
+
     }
 
     .meetup {
