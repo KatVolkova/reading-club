@@ -298,8 +298,8 @@ a.join-us-button {
     color: #1f1f24;
 }
 
-.timetable-list span {
-    color: #1f1f24;
+span {
+    /* color: #1f1f24; */
     font-size: 2rem;
     font-weight: 500;
     font-family: "Niconne", cursive;
