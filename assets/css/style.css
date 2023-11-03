@@ -207,6 +207,10 @@ a.join-us-button {
     text-align: center;
 }
 
+.aboutus-section p {
+    margin-top: 1rem;
+}
+
 .events {
     margin: 1.3rem 1rem;
     display: flex;
@@ -245,12 +249,16 @@ a.join-us-button {
     height: 12.5rem;
     padding: 1.25rem;
     margin: 1.25rem auto;
-    border-radius: 5px;
+    border-radius: 50px;
 }
 
 .challenge h2,
 .challenge p {
     text-align: center;
+}
+
+.challenge p {
+    margin-top: 1rem;
 }
 
 /* Timetable Section */
@@ -493,10 +501,10 @@ footer {
     /* Heading Section */
 
     .challenge {
-        width: 40rem;
-        height: 13rem;
-        padding: 0.6rem;
-        margin: 0.7rem auto;
+        width: 20rem;
+        height: 28rem;
+        padding: 1rem;
+        margin: 0.1rem auto;
     }
 
     /* Timetable Section */
@@ -728,10 +736,9 @@ footer {
     /* Reading Challenge Page */
     /* Heading Section */
     .challenge {
-        width: 18rem;
-        height: 26rem;
-        padding: 0.8rem;
-        margin: 0.7rem auto;
+        margin-top: 0.5rem;
+        width: 15rem;
+        height: 35rem;
     }
 
     /* Timetable Section */
