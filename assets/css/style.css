@@ -12,11 +12,14 @@ body {
     font-family: "Hind Siliguri", sans-serif;
 }
 
-h2,
-h3 {
+h2 {
     font-family: "Niconne", cursive;
-    font-size: 1.8rem;
+    font-size: 2rem;
+}
 
+h3 {
+    font-size: 1.8rem;
+    font-family: "Niconne", cursive;
 }
 
 .hidden {
@@ -158,7 +161,7 @@ a.join-us-button {
     margin: 1rem 0;
     text-align: center;
     color: #1f1f24;
-    font-size: 1.8rem;
+
 }
 
 .card li {
@@ -356,7 +359,7 @@ span {
 }
 
 .join-us-heading {
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: 400;
     color: antiquewhite;
     text-shadow: 0 10px 20px antiquewhite;
