@@ -245,8 +245,8 @@ a.join-us-button {
 .challenge {
     background-color: antiquewhite;
     color: #1f1f24;
-    width: 56rem;
-    height: 12.5rem;
+    width: 40rem;
+    height: 15rem;
     padding: 1.25rem;
     margin: 1.25rem auto;
     border-radius: 50px;
@@ -307,8 +307,8 @@ span {
 
 /* Map */
 .meetup {
-    height: 9rem;
-    width: 45rem;
+    height: 9.5rem;
+    width: 40rem;
     background-color: antiquewhite;
     color: #1f1f24;
     margin: 1.25rem auto;
@@ -320,13 +320,16 @@ span {
 
 .meetup-text {
     margin: auto;
-    padding: 0 0.5rem 0.9rem 0;
+    padding: 0 0.5rem 0.5rem 0;
+
 }
 
 .meetup-text h2,
 .meetup-text p {
     text-align: center;
 }
+
+
 
 #bookstore-map {
     position: relative;
@@ -476,38 +479,46 @@ footer {
     .hero p {
         font-size: 4rem;
     }
-}
-
-/* Media query: desktops (1100px and up  */
-@media only screen and (max-width: 1100px) {
-
-    /* About Us section */
-    .aboutus-section {
-        width: 20rem;
-        height: 22rem;
-        padding: 1rem;
-        margin: 1rem auto;
-    }
-
-    .events {
-        flex-direction: column;
-    }
-
-    .events-subgroup p {
-        text-align: center;
-    }
 
     /* Reading Challenge Page */
     /* Heading Section */
-
     .challenge {
-        width: 20rem;
-        height: 28rem;
-        padding: 1rem;
-        margin: 0.1rem auto;
+        background-color: antiquewhite;
+        color: #1f1f24;
+        width: 56rem;
+        height: 12.5rem;
+        padding: 1.25rem;
+        margin: 1.25rem auto;
+        border-radius: 50px;
     }
 
-    /* Timetable Section */
+    /* Map */
+    .meetup {
+        height: 9.5rem;
+        width: 56rem;
+        background-color: antiquewhite;
+        color: #1f1f24;
+        margin: 1.25rem auto;
+        display: flex;
+        justify-content: space-evenly;
+        border-radius: 5px;
+
+    }
+}
+
+
+/* Media query: 742px and up */
+@media only screen and (max-width: 742px) {
+
+    /* Reading Challenge Page */
+    .challenge {
+        width: 38rem;
+        height: 15rem;
+        padding: 1rem;
+        margin: 0.8rem auto;
+    }
+
+    /* Timetable */
     .timetable {
         width: 40rem;
         height: 38rem;
@@ -524,16 +535,11 @@ footer {
         font-weight: 500;
     }
 
+    /* Map */
     .meetup {
-        height: 9rem;
+        height: 9.5rem;
         width: 40rem;
     }
-}
-
-/* Media query: 742px and up */
-@media only screen and (max-width: 742px) {
-
-
 
     /* Join Us Page */
     /* Join Us Form */
@@ -552,6 +558,9 @@ footer {
         margin-top: 0.31rem;
     }
 }
+
+
+
 
 /* Media query tablets: 658px and up) */
 @media only screen and (max-width: 658px) {
@@ -592,12 +601,20 @@ footer {
         margin: 1.75rem 1rem;
     }
 
+    /* Reading Challenge Page */
 
+    .challenge {
+        width: 35rem;
+    }
+
+    .challenge p {
+        margin-top: 0.01rem;
+    }
 
     /* Timetable Section */
     .timetable {
         width: 20rem;
-        height: 51rem;
+        height: 42rem;
         margin: 0.7rem auto;
         padding: 0.8rem;
     }
@@ -613,8 +630,8 @@ footer {
 
     /* Map */
     .meetup {
-        height: 30rem;
-        width: 20rem;
+        height: 28rem;
+        width: 19rem;
         margin: 1rem auto;
         flex-direction: column;
     }
