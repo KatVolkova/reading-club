@@ -227,7 +227,7 @@ a.join-us-button {
 .events-subgroup {
     width: 20rem;
     height: 30rem;
-    margin: 1.25rem;
+    margin: 1rem;
     border: 1px solid antiquewhite;
     padding: 0.8rem;
 }
@@ -490,22 +490,29 @@ footer {
 }
 
 /* Media query: desktops (1100px and up  */
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1200px) {
 
     /* About Us section */
-
-
     .events {
         flex-direction: column;
+
     }
 
-    .events-subgroup p {
-        text-align: center;
+    .events-subgroup {
+        width: 45rem;
+        height: 15rem;
     }
+
 }
 
 /* Media query: 742px and up */
 @media only screen and (max-width: 742px) {
+
+    /* About Us page */
+    .events-subgroup {
+        width: 40rem;
+        height: 16rem;
+    }
 
     /* Reading Challenge page */
     /* Timetable */
@@ -589,6 +596,12 @@ footer {
 
     .card {
         margin: 1.75rem 1rem;
+    }
+
+    /* About Us page */
+    .events-subgroup {
+        width: 35rem;
+        height: 17.5rem;
     }
 
     /* Reading Challenge Page */
@@ -704,6 +717,27 @@ footer {
         display: block;
     }
 
+
+    /* About Us page */
+    .events-subgroup {
+        width: 30rem;
+        height: 21rem;
+    }
+}
+
+/* Media Query to make About Us page responsive: 500px */
+@media only screen and (max-width: 500px) {
+
+    /* About Us page */
+    .events-subgroup {
+        width: 20rem;
+        height: 30rem;
+        text-align: center;
+    }
+
+    .image {
+        width: 300px
+    }
 }
 
 /* Media Query for extra small screens: 320px */
@@ -730,6 +764,12 @@ footer {
 
     /* About Page */
 
+
+
+    .events-subgroup {
+        width: 18rem;
+        height: 32rem;
+    }
 
     .aboutus-page-image {
         display: none;
