@@ -49,6 +49,7 @@ The wibsite is fully responsive.
 Each page has a navigation bar and footer as well as:
 
 - favicon in the browser tab:
+
 - Logo located inside the navigation section that acts as a link to the Home page:
 
 ### Navigation bar
@@ -72,7 +73,7 @@ The navigation section is intuitive to use and provides users with easy access t
 
 ![Hero Image](/assets/images/hero-page-reading-club.jpg)
 
-The hero section includes an image with Reading Club heading and a quote. Both suit the purpose of conveying the main idea of the site. 
+The hero section includes an image with Reading Club heading and a quote. Both suit the purpose of conveying the main idea of the site.
 
 ### The summary section
 
@@ -85,9 +86,9 @@ The summary section provides a very brief introduction to what users can expect 
 ![Footer](/assets/images/footer-reading-club.jpg)
 The footer section features:
 
-- an email link so the users can directly ask their specific questions
+- an email link so the users can directly ask their specific questions.
 - social network links to ensure that users can get updates on the events organised by the Reading club community.
-- join us button is presented in both navigation and footer sections
+- join us button is presented in both navigation and footer sections for easy access.
 
 ### About Us page
 
@@ -95,11 +96,11 @@ The footer section features:
 
 About Us page provides the description of activities that Reading Club can offer their audience:
 
-- book recommendations
-- readers community
-- readers reviews
-- quizzes
-Activities section gives a more detailed description of each activity  and also includes the image in the middle.
+- Book recommendations
+- Readers community
+- Readers reviews
+- Quizzes
+Activities section gives a more detailed description of each activity and also includes the image in the middle.
 
 ### Reading Challenge page
 
@@ -113,13 +114,13 @@ The meet up point section is targeted at those who live or visit London at the t
 
 ![Join Us Page](/assets/images/join-us-page-reading-club.jpg)
 
-Join us page includes the simple sign up form for those who want to be a part of the readers community and benefit from the various events and activities.
+Join us page includes the simple sign up form for those who want to be a part of the readers community and benefit from the various events and activities.Both fields in the form are required to be completed.
 
 ## Design
 
 ## Wireframes
 
-Balsamic was used to create wireframes for both desctop and mobile. Please note these wireframes represent the very first draft of the website. Quite a number of features have been changed/removed/added
+Balsamic software was used to create wireframes for both desktop and mobile phones. Please note these wireframes represent the very first draft of the website. Quite a few features have been changed/removed/added.
 ![Desktop Design](/assets/images/readme/balsamic-wireframe-desktop.jpg)
 ![Mobile phone design](/assets/images/readme/balsamic-wireframe-mobile.jpg)
 
@@ -161,8 +162,9 @@ HTML, CSS
 - [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
 - [Canva.com](https://canva.com/) To create and customise favicon and logo
 - [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
-- [Pixlr](https://pixlr.com/) To re-size and convert pictures into webp format 
+- [Pixlr](https://pixlr.com/) To re-size and convert pictures into webp format
 - [Grammarly](https://app.grammarly.com/ ) - has been used for spell-checking
+- [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
 - Codeanywhere has been used as IDE
 
 - - -
@@ -206,7 +208,7 @@ Validator testing was carried out using the following:
 - Fonts were taken from [Google Fonts](https://fonts.google.com/)
 - Icons for drop-down menu were taken form [Font Awesome](https://fontawesome.com/)
 - Picture were re-sized and converted into webp format using [Pixlr](https://pixlr.com/)
-- Pixels or rem in CSS article [Austingil](https://austingil.com/px-or-rem-in-css/)
-- Transition property in CSS article [W3school](https://www.w3schools.com/css/css3_transitions.asp)
-- Breakpoints for responsive Web Design  in 2023 article [Browserstack](https://www.browserstack.com/guide/responsive-design-breakpoints)
+- "Pixels or rem in CSS" article [Austingil](https://austingil.com/px-or-rem-in-css/)
+- "Transition property in CSS" article [W3school](https://www.w3schools.com/css/css3_transitions.asp)
+- "Breakpoints for responsive Web Design in 2023" article [Browserstack](https://www.browserstack.com/guide/responsive-design-breakpoints)
 - The list of literary genres was taken from [Wikipedia](https://en.wikipedia.org/wiki/List_of_writing_genres)
