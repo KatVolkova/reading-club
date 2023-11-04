@@ -11,6 +11,7 @@ Reading Club is a website created to attract those interested in reading. The ta
 - [Reading Club](#reading-club)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
+    - [General](#general)
     - [Navigation bar](#navigation-bar)
     - [Hero Image](#hero-image)
     - [The summary section](#the-summary-section)
@@ -35,12 +36,37 @@ Reading Club is a website created to attract those interested in reading. The ta
 
 ## Features
 
+### General
+
+The Reading club website consists of four pages:
+
+- Home page
+- About Us
+- Reading Challenge
+- Join Us
+
+The wibsite is fully responsive.
+Each page has a navigation bar and footer as well as:
+
+- favicon in the browser tab:
+- Logo located inside the navigation section that acts as a link to the Home page:
+
 ### Navigation bar
 
 ![Navigation Section](/assets/images/navigation-reading-club.jpg)
 ![Navigation Section for Mobile Phones](/assets/images/navigation-mobile-reading-club.jpg)
 
-Each of four pages has a responsive navigation bar that consists of a Logo (used as a toggler for mobile phone screens, links to Home page, About Us page, Reading  Challenge page and Join Us  page.
+Each of four pages has a responsive navigation bar that consists of:
+
+- Logo used as a toggler for mobile phone screens
+Links to:
+
+- Home page
+- About Us page
+- Reading  Challenge page
+- Join Uspage.
+
+The navigation section is intuitive to use and 
 
 ### Hero Image
 
@@ -86,6 +112,8 @@ Join us page includes the simple sign up form for those who want to be a part of
 ## Wireframes
 
 Balsamic was used to create wireframes for both desctop and mobile. Please note these wireframes represent the very first draft of the website. Quite a number of features have been changed/removed/added
+![Desktop Design](/assets/images/readme/balsamic-wireframe-desktop.jpg)
+![Mobile phone design](/assets/images/readme/balsamic-wireframe-mobile.jpg)
 
 ### Colour Scheme
 
@@ -94,17 +122,18 @@ Colours used:
 - background colour `#1f1f24`  
 - font colour `#FAEBD7`
 The colours above create the right contrast and contribute to the site's readability. The screen shot below is an example of these two colours combination:
-![Colour Scheme](/assets/images/)
+![Colour Scheme](/assets/images/readme/colour-pallete-example.jpg)
+
 ### Typography
 
 Google fonts have been used for this website
 
 - Hind Siliguri font style has been used as the general font.
-  ![Hind Siliguri](/assets/images/readme/)
+  ![Hind Siliguri](/assets/images/readme/hind-siliguri-google-fonts.jpg)
 - Crimson Text font style has been used for the h1 heading.
-  ![Crimson](/assets/images/readme/cr)
+  ![Crimson](/assets/images/readme/crimson-google-fonts.jpg)
 - Niconne has font style been used for all heading apart from the h1 heading.
-  ![Niconne](/assets/images/join-us-page-reading-club.jpg)
+  ![Niconne](/assets/images/readme/niconne-goole-fonts.jpg)
 
 ### Images
 
@@ -158,7 +187,7 @@ Validator testing was carried out using the following:
 	 
 - Spelling mistake for align-items attribute value:center has been corrected.
 
-- Trailing slashed have been removed from meta elements
+- Trailing slashes have been removed from meta elements.
   
 - - -
 
@@ -170,5 +199,6 @@ Validator testing was carried out using the following:
 - Icons for drop-down menu were taken form [Font Awesome](https://fontawesome.com/)
 - Picture were re-sized and converted into webp format using [Pixlr](https://pixlr.com/)
 - Pixels or rem in CSS article [Austingil](https://austingil.com/px-or-rem-in-css/)
-- Transition property in CSS [W3school](https://www.w3schools.com/css/css3_transitions.asp)
+- Transition property in CSS article [W3school](https://www.w3schools.com/css/css3_transitions.asp)
+- Breakpoints for responsive Web Design  in 2023 article [Browserstack](https://www.browserstack.com/guide/responsive-design-breakpoints)
 - The list of literary genres was taken from [Wikipedia](https://en.wikipedia.org/wiki/List_of_writing_genres)
