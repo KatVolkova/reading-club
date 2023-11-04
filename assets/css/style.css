@@ -229,10 +229,8 @@ a.join-us-button {
     border-bottom: 1px solid antiquewhite;
 }
 
-image {
+.aboutus-page-image {
     margin: 10% 0;
-    padding: 0 2rem;
-
     border-radius: 6px;
     box-shadow: 0 5px 20px antiquewhite;
 }
