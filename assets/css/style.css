@@ -66,10 +66,11 @@ header {
 
 }
 
-#menu-icon {
+.navbar-toggle-label i {
     color: antiquewhite;
     font-size: 3.13rem;
     margin-right: 0.7rem;
+    margin-top: 1rem;
 }
 
 /* Navbar */
@@ -338,6 +339,9 @@ a.join-us-button {
     width: 43rem;
     height: 31rem;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     border-radius: 8px;
     box-shadow: 0 0.6rem 1.9rem antiquewhite;
