@@ -95,9 +95,9 @@ The colours above create the right contrast and contribute to the site's readabi
 Google fonts have been used for this website
 
 - Hind Siliguri font style has been used as the general font.
-  ![Hind Siliguri](/assets/images/sc)
+  ![Hind Siliguri](/assets/images/readme/)
 - Crimson Text font style has been used for the h1 heading.
-  ![Crimson](/assets/images/join-us-page-reading-club.jpg)
+  ![Crimson](/assets/images/readme/cr)
 - Niconne has font style been used for all heading apart from the h1 heading.
   ![Niconne](/assets/images/join-us-page-reading-club.jpg)
 
