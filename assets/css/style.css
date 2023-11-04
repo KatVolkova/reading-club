@@ -30,6 +30,18 @@ h3 {
     border-bottom: 1px solid antiquewhite;
 }
 
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 span {
     font-size: 2rem;
     font-weight: 500;
@@ -47,6 +59,13 @@ header {
     justify-content: space-between;
 }
 
+#logo {
+    width: 80px;
+    border-radius: 50%;
+    border: 3px solid antiquewhite;
+
+}
+
 #menu-icon {
     color: antiquewhite;
     font-size: 3.13rem;
@@ -55,22 +74,11 @@ header {
 
 /* Navbar */
 .header-navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
     font-size: 1.25rem;
-
 }
 
 #navbar-toggle {
     display: none;
-}
-
-.menu-list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .menu-list li {
@@ -78,21 +86,9 @@ header {
     list-style-type: none;
 }
 
-
 .header-navbar a {
     color: antiquewhite;
 }
-
-#logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80px;
-    border-radius: 50%;
-    border: 3px solid antiquewhite;
-}
-
-
 
 /* Navbar button */
 .join-us-button {
@@ -124,12 +120,10 @@ a.join-us-button {
     background-image: url(../images/hero-image.webp);
     background-position: center;
     height: 95vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
-.hero-text {
+#hero-text {
     margin: auto;
 }
 
@@ -159,17 +153,15 @@ a.join-us-button {
     height: 19rem;
     padding: 1rem;
     margin: 1.75rem;
-    border: 1px solid black;
+    border: 1px solid #1f1f24;
     border-radius: 5px;
     box-shadow: 0 10px 30px antiquewhite;
-
 }
 
 .card h3 {
     margin: 1rem 0;
     text-align: center;
     color: #1f1f24;
-
 }
 
 .card li {
@@ -360,9 +352,6 @@ a.join-us-button {
     width: 43rem;
     height: 31rem;
     margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     border-radius: 8px;
     box-shadow: 0 0.6rem 1.9rem antiquewhite;
@@ -422,19 +411,10 @@ footer {
 }
 
 .social-networks {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     border-top: 1px solid antiquewhite;
     font-size: 1.25rem;
-
 }
 
-.social-networks ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .social-networks li {
     margin: 0.62rem;
