@@ -1,6 +1,6 @@
 # Reading Club
 
-![Reading Club website shown on a variety of screen sizes](/assets/images/reading-club.jpg)
+![Reading Club website shown on a variety of screen sizes](/assets/images/readme/reading-club.jpg)
 
 Visit the deployed site: [Reading Club](https://github.com/KatVolkova/reading-club)
 
@@ -50,12 +50,15 @@ Each page has a navigation bar and footer, as well as:
 
 - favicon in the browser tab:
 
+![Navigation Section](/assets/images/readme/readme-favicon.jpg)
+
 - Logo located inside the navigation section that acts as a link to the Home page:
+![Navigation Section](/assets/images/readme/readme-logo.jpg)
 
 ### Navigation bar
 
-![Navigation Section](/assets/images/navigation-reading-club.jpg)
-![Navigation Section for Mobile Phones](/assets/images/navigation-mobile-reading-club.jpg)
+![Navigation Section](/assets/images/readme/navigation-reading-club.jpg)
+![Navigation Section for Mobile Phones](/assets/images/readme/navigation-dropdown.jpg)
 
 Each of the four pages has a responsive navigation bar that consists of the following:
 
@@ -71,19 +74,19 @@ The navigation section is intuitive and gives users easy access to all website p
 
 ### Hero Image
 
-![Hero Image](/assets/images/hero-page-reading-club.jpg)
+![Hero Image](/assets/images/readme/hero-page-reading-club.jpg)
 
 The hero section includes an image with the Reading Club heading and a quote. Both suit the purpose of conveying the main idea of the site.
 
 ### The summary section
 
-![Summary Section](/assets/images/summary2-section-reading-club.jpg)
+![Summary Section](/assets/images/readme/summary-section-reading-club.jpg)
 
 The summary section provides a very brief introduction to what users can expect from the website. About Us and Reading Challenge Learn More links direct users to the relevant pages of the website.
 
 ### Footer
 
-![Footer](/assets/images/footer-reading-club.jpg)
+![Footer](/assets/images/readme/footer-reading-club.jpg)
 The footer section features:
 
 - an email link so the users can directly ask their specific questions.
@@ -92,7 +95,7 @@ The footer section features:
 
 ### About Us page
 
-![About Us Page](/assets/images/about-page-reading-club.jpg)
+![About Us Page](/assets/images/readme/about-page-reading-club.jpg)
 
 The About Us page describes activities that the Reading Club can offer their audience:
 
@@ -104,7 +107,7 @@ The activities section gives a more detailed description of each activity and al
 
 ### Reading Challenge page
 
-![Reading Challenge Page](/assets/images/reading-challenge-page-reading-club.jpg)
+![Reading Challenge Page](/assets/images/readme/reading-challenge-page-reading-club.jpg)
 
 The reading challenge page introduces the idea of the reading challenges and explains why they could be attractive to people.
 The Monthly schedule section provides a list of reading challenges for the specific genre for each month.
@@ -112,7 +115,7 @@ The meetup point section is targeted at those who live or visit London at the ti
 
 ### Join Us page
 
-![Join Us Page](/assets/images/join-us-page-reading-club.jpg)
+![Join Us Page](/assets/images/readme/join-us-page-reading-club.jpg)
 
 The Join Us page includes a simple sign-up form for those who want to join the readers' community and benefit from the various events and activities. Both fields in the form are required to be completed.
 
@@ -131,7 +134,7 @@ Colours used:
 - background colour `#1f1f24`  
 - font colour `#FAEBD7`
 The colours above create the right contrast and contribute to the site's readability. The screenshot below is an example of these two colour combinations:
-![Colour Scheme](/assets/images/readme/colour-pallet-example.jpg)
+![Colour Scheme](/assets/images/readme/colour-palette-example.jpg)
 
 ### Typography
 
