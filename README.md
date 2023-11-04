@@ -24,7 +24,7 @@ Reading Club is a website created to attract those interested in reading. The ta
     - [Images](#images)
   - [Technologies Used](#technologies-used)
     - [Languages Used](#languages-used)
-    - [Programs Used](#programs-used)
+    - [Programs/Applications/Software Used](#programsapplicationssoftware-used)
   - [Deployment](#deployment)
   - [Testing](#testing)
     - [Solved Bugs](#solved-bugs)
@@ -88,16 +88,18 @@ Colours used:
 
 - background colour `#1f1f24`  
 - font colour `#FAEBD7`
-
-The colours above create the right contrast and contribute to the site's readability.
-
+The colours above create the right contrast and contribute to the site's readability. The screen shot below is an example of these two colours combination:
+![Colour Scheme](/assets/images/)
 ### Typography
 
 Google fonts have been used for this website
 
-- Hind Siliguri font style has been used as the general font .
+- Hind Siliguri font style has been used as the general font.
+  ![Hind Siliguri](/assets/images/sc)
 - Crimson Text font style has been used for the h1 heading.
+  ![Crimson](/assets/images/join-us-page-reading-club.jpg)
 - Niconne has font style been used for all heading apart from the h1 heading.
+  ![Niconne](/assets/images/join-us-page-reading-club.jpg)
 
 ### Images
 
@@ -109,7 +111,7 @@ Pictures have been taken from [Pexels](https://www.pexels.com/search/books/)
 
 HTML, CSS
 
-### Programs Used
+### Programs/Applications/Software Used
 
 - [Git](https://git-scm.com/) - For version control.
 - [Github](https://github.com/) - To save and store the files for the website.
@@ -117,6 +119,7 @@ HTML, CSS
 - [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
 - [Canva.com](https://canva.com/) To create and customise favicon and logo
 - [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+- [Pixlr](https://pixlr.com/) To re-size and convert pictures into webp format 
 - [Grammarly](https://app.grammarly.com/ ) - has been used for spell-checking
 - Codeanywhere has been used as IDE
 
