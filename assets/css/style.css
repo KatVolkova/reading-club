@@ -196,14 +196,14 @@ a.join-us-button {
 /* About Us Page */
 /* About Us section */
 .aboutus-section {
-    padding: 1rem;
+    padding: 0 3rem;
+    margin-top: 1rem;
 }
 
 .aboutus-section h2,
 .aboutus-section p {
     text-align: center;
 }
-
 
 .activities {
     margin: 1.3rem 1rem;
@@ -217,9 +217,8 @@ a.join-us-button {
 }
 
 .activities-subgroup {
-    width: 20rem;
-    height: 30rem;
-    margin: 1rem;
+
+    margin: 1.25rem;
     border: 1px solid antiquewhite;
     padding: 0.8rem;
 }
@@ -230,7 +229,9 @@ a.join-us-button {
     border-bottom: 1px solid antiquewhite;
 }
 
-.aboutus-page-image {
+image {
+    margin: 10% 0;
+    padding: 0 2rem;
 
     border-radius: 6px;
     box-shadow: 0 5px 20px antiquewhite;
@@ -456,7 +457,7 @@ footer {
     }
 }
 
-/* Media query: desktops (1100px and up  */
+/* Media query: desktops (1200px and up  */
 @media only screen and (max-width: 1200px) {
 
     /* About Us section */
@@ -465,21 +466,14 @@ footer {
 
     }
 
-    .activities-subgroup {
-        width: 45rem;
-        height: 15rem;
-    }
+
 
 }
 
 /* Media query: 742px and up */
 @media only screen and (max-width: 742px) {
 
-    /* About Us page */
-    .activities-subgroup {
-        width: 40rem;
-        height: 16rem;
-    }
+
 
 
     /* Monthly-schedule */
@@ -565,11 +559,7 @@ footer {
         margin: 1.75rem 1rem;
     }
 
-    /* About Us page */
-    .activities-subgroup {
-        width: 35rem;
-        height: 17.5rem;
-    }
+
 
 
 
@@ -686,25 +676,20 @@ footer {
 
 
     /* About Us page */
-    .activities-subgroup {
-        width: 30rem;
-        height: 21rem;
-    }
+
 }
 
 /* Media Query to make About Us page responsive: 500px */
 @media only screen and (max-width: 500px) {
 
     /* About Us page */
-    .activities-subgroup {
-        width: 20rem;
-        height: 30rem;
-        text-align: center;
+    /* .aboutus-page-image {
+        margin: 1rem 2rem;
     }
 
-    .image {
-        width: 300px
-    }
+    .aboutus-page-image image {
+        max-width: 300px;
+    } */
 }
 
 /* Media Query for extra small screens: 320px */
