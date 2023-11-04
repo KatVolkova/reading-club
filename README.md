@@ -64,48 +64,56 @@ Links to:
 - Home page
 - About Us page
 - Reading  Challenge page
-- Join Uspage.
+- Join Us page
 
-The navigation section is intuitive to use and 
+The navigation section is intuitive to use and provides users with easy access to all website pages. For mobile phone users the navigation links are replaced by a dropdown menu.
 
 ### Hero Image
 
 ![Hero Image](/assets/images/hero-page-reading-club.jpg)
 
-The hero section includes an image with Reading Club heading and  a quote that suits the idea of the site. This image has been selected to provide clear visual clue what the site is about.
+The hero section includes an image with Reading Club heading and a quote. Both suit the purpose of conveying the main idea of the site. 
 
 ### The summary section
 
 ![Summary Section](/assets/images/summary2-section-reading-club.jpg)
 
-The summary section provides a very brief introduction to what users  can expect from the website. Learn More links direct users to the relevant pages of the website.
+The summary section provides a very brief introduction to what users can expect from the website. About us and Reading Challenge Learn More links direct users to the relevant pages of the website.
 
 ### Footer
 
 ![Footer](/assets/images/footer-reading-club.jpg)
+The footer section features:
 
-The footer section features social network links and an email link as well join us  button to ensure that users have different means to keep track of the events organised by the Reading club community.
+- an email link so the users can directly ask their specific questions
+- social network links to ensure that users can get updates on the events organised by the Reading club community.
+- join us button is presented in both navigation and footer sections
 
 ### About Us page
 
 ![About Us Page](/assets/images/about-page-reading-club.jpg)
 
-About Us page provides users with events that participants can take part in.About us section summarises the activities that are offered to users such as Book recommendations, readers community, readers reviews and quizzes
-Events section gives a more detailed description of each activity  and also includes an  image in the middle.
+About Us page provides the description of activities that Reading Club can offer their audience:
+
+- book recommendations
+- readers community
+- readers reviews
+- quizzes
+Activities section gives a more detailed description of each activity  and also includes the image in the middle.
 
 ### Reading Challenge page
 
 ![Reading Challenge Page](/assets/images/reading-challenge-page-reading-club.jpg)
 
-Reading challenge page introduces the idea of the reading challenges and explains the reasons for users to participate
-The Monthly schedule section provides a list of reading challenges for each month. There is a specific genre for each month
-The meet up point section is targeted  at those who live or visit London at the time of meet up, it also provides a map where the meet ups could be hosted for a small group of people.
+Reading challenge page introduces the idea of the reading challenges and explains the reasons it could be interesting to people.
+The Monthly schedule section provides a list of reading challenges for the specific genre for each month.
+The meet up point section is targeted at those who live or visit London at the time meetups take place, it also provides a map where the meetups could be hosted for a small group of people.
 
 ### Join Us page
 
 ![Join Us Page](/assets/images/join-us-page-reading-club.jpg)
 
-Join us page includes the simple sign up form for those who want to be a part of the readers community and benefit from the various events.
+Join us page includes the simple sign up form for those who want to be a part of the readers community and benefit from the various events and activities.
 
 ## Design
 
