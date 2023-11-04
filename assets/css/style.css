@@ -205,18 +205,18 @@ a.join-us-button {
 }
 
 
-.events {
+.activities {
     margin: 1.3rem 1rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.events-group {
+.activities-group {
     margin: 1.5rem;
 }
 
-.events-subgroup {
+.activities-subgroup {
     width: 20rem;
     height: 30rem;
     margin: 1rem;
@@ -224,7 +224,7 @@ a.join-us-button {
     padding: 0.8rem;
 }
 
-.events-subgroup h3 {
+.activities-subgroup h3 {
     text-align: center;
     margin-bottom: 0.3rem;
     border-bottom: 1px solid antiquewhite;
@@ -238,21 +238,21 @@ a.join-us-button {
 
 /* Reading Challenge Page */
 /* Heading Section */
-.challenge {
+.reading-challenge {
     padding: 1.25rem;
 }
 
-.challenge h2,
-.challenge p {
+.reading-challenge h2,
+.reading-challenge p {
     text-align: center;
 }
 
-.challenge p {
+.reading-challenge p {
     margin-top: 1rem;
 }
 
-/* Timetable Section */
-.timetable {
+/* Monthly-schedule Section */
+.monthly-schedule {
     width: 40rem;
     height: 41rem;
     background-color: antiquewhite;
@@ -261,17 +261,17 @@ a.join-us-button {
     padding: 1.25rem;
 }
 
-.timetable h2 {
+.monthly-schedule h2 {
     color: #1f1f24;
     padding: .8rem;
     text-align: center;
 }
 
-.timetable ul {
+.monthly-schedule ul {
     text-align: center;
 }
 
-.timetable li {
+.monthly-schedule li {
     color: #1f1f24;
     border-top: 1px solid #1f1f24;
     border-bottom: 1px solid #1f1f24;
@@ -282,7 +282,7 @@ a.join-us-button {
 
 }
 
-.timetable-list i {
+.monthly-schedule-list i {
     font-size: 1.2rem;
     margin-right: 0.4rem;
     color: #1f1f24;
@@ -306,32 +306,19 @@ a.join-us-button {
 .meetup-text {
     margin: auto;
     padding: 0 0.5rem 0.5rem 0;
-
 }
 
 .meetup-text h2,
 .meetup-text p {
     text-align: center;
+
 }
-
-
 
 #bookstore-map {
     position: relative;
     overflow: hidden;
     width: 100%;
 }
-
-#iframe-map {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-}
-
-
 
 /* Join Us Page */
 /* Join Us Form */
@@ -451,7 +438,7 @@ footer {
         font-size: 4rem;
     }
 
-    /* Reading Challenge Page */
+
 
 
 
@@ -473,12 +460,12 @@ footer {
 @media only screen and (max-width: 1200px) {
 
     /* About Us section */
-    .events {
+    .activities {
         flex-direction: column;
 
     }
 
-    .events-subgroup {
+    .activities-subgroup {
         width: 45rem;
         height: 15rem;
     }
@@ -489,25 +476,25 @@ footer {
 @media only screen and (max-width: 742px) {
 
     /* About Us page */
-    .events-subgroup {
+    .activities-subgroup {
         width: 40rem;
         height: 16rem;
     }
 
-    /* Reading Challenge page */
-    /* Timetable */
-    .timetable {
+
+    /* Monthly-schedule */
+    .monthly-schedule {
         width: 40rem;
         height: 38rem;
         margin: 0.7rem auto;
         padding: 0.6rem;
     }
 
-    .timetable-list {
+    .monthly-schedule-list {
         font-size: 1.2rem;
     }
 
-    .timetable-list span {
+    .monthly-schedule-list span {
         font-size: 1.7rem;
         font-weight: 500;
     }
@@ -579,27 +566,27 @@ footer {
     }
 
     /* About Us page */
-    .events-subgroup {
+    .activities-subgroup {
         width: 35rem;
         height: 17.5rem;
     }
 
-    /* Reading Challenge Page */
 
 
-    /* Timetable Section */
-    .timetable {
+
+    /* Monthly-schedule Section */
+    .monthly-schedule {
         width: 20rem;
         height: 42rem;
         margin: 0.7rem auto;
         padding: 0.8rem;
     }
 
-    .timetable-list {
+    .monthly-schedule-list {
         font-size: 0.9rem;
     }
 
-    .timetable-list span {
+    .monthly-schedule-list span {
         font-size: 1.5rem;
         font-weight: 500;
     }
@@ -699,7 +686,7 @@ footer {
 
 
     /* About Us page */
-    .events-subgroup {
+    .activities-subgroup {
         width: 30rem;
         height: 21rem;
     }
@@ -709,7 +696,7 @@ footer {
 @media only screen and (max-width: 500px) {
 
     /* About Us page */
-    .events-subgroup {
+    .activities-subgroup {
         width: 20rem;
         height: 30rem;
         text-align: center;
@@ -746,7 +733,7 @@ footer {
 
 
 
-    .events-subgroup {
+    .activities-subgroup {
         width: 18rem;
         height: 32rem;
     }
@@ -755,16 +742,16 @@ footer {
         display: none;
     }
 
-    /* Reading Challenge Page */
 
 
-    /* Timetable Section */
-    .timetable {
+
+    /* Monthly-schedule Section */
+    .monthly-schedule {
         width: 18rem;
         height: 35rem;
     }
 
-    .timetable li {
+    .monthly-schedule li {
         padding: .2rem;
         letter-spacing: 0.05rem;
         font-size: 0.8rem;
