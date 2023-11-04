@@ -19,6 +19,7 @@ Reading Club is a website created to attract those interested in reading. The ta
     - [Reading Challenge page](#reading-challenge-page)
     - [Join Us page](#join-us-page)
   - [Design](#design)
+  - [Wireframes](#wireframes)
     - [Colour Scheme](#colour-scheme)
     - [Typography](#typography)
     - [Images](#images)
@@ -81,6 +82,10 @@ The meet up point section is targeted  at those who live or visit London at the 
 Join us page includes the simple sign up form for those who want to be a part of the readers community and benefit from the various events.
 
 ## Design
+
+## Wireframes
+
+Balsamic was used to create wireframes for both desctop and mobile. Please note these wireframes represent the very first draft of the website. Quite a number of features have been changed/removed/added
 
 ### Colour Scheme
 
@@ -147,11 +152,11 @@ Validator testing was carried out using the following:
   
 ### Solved Bugs
 
-- The error identified in the middle of the project is the use of a combination of a button and a link element, as the button element cannot be a child decedent of a link and vice versa. This error has been fixed by leaving the link only and styling it as a button using CSS.
+- The error identified in the middle of the project is the use of a combination of a button and a link element, as the button element cannot be a child decendent of a link and vice versa. This error has been fixed by leaving the link only and styling it as a button using CSS.
 	 
 - Join Us button had the same colour applied for both the background and the border properties. This error has been fixed by removing the border colour.
 	 
-- Spelling mistake for align-items attribute value:center has been correct.
+- Spelling mistake for align-items attribute value:center has been corrected.
 
 - Trailing slashed have been removed from meta elements
   
