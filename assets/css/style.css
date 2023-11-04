@@ -10,6 +10,14 @@ body {
     color: antiquewhite;
     background-color: #1f1f24;
     font-family: "Hind Siliguri", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+main {
+    flex: 1;
 }
 
 h2 {
@@ -393,12 +401,6 @@ a.join-us-button {
 
 /* Footer */
 
-footer {
-    height: 3.28rem;
-    margin-top: auto;
-
-
-}
 
 .social-networks {
     border-top: 1px solid antiquewhite;
