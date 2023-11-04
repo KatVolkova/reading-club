@@ -139,8 +139,8 @@ To Deploy the site using GitHub Pages:
 
 Validator testing was carried out using the following:
 
-- HTML No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
-- CSS No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
+- HTML files of all four pages do not contain either errors or warnings according to the official [W3C validator](https://validator.w3.org)
+- CSS file does not contain either errors or warnings according to the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
   
 ### Solved Bugs
 
@@ -150,12 +150,17 @@ Validator testing was carried out using the following:
 	 
 - Spelling mistake for align-items attribute value:center has been correct.
 
-|
+- Trailing slashed have been removed from meta elements
+  
 - - -
 
 ## Credits
 
-- Templates for a Logo and favicon have been taken and customised using [Canva](https://www.canva.com/)
-- Pictures have been taken from [Pexels](https://www.pexels.com/)
-- Fonts have been used from [Google Fonts](https://fonts.google.com/)
+- Templates for a Logo and favicov were taken and customised using [Canva](https://www.canva.com/)
+- Pictures were taken from [Pexels](https://www.pexels.com/)
+- Fonts were taken from [Google Fonts](https://fonts.google.com/)
+- Icons for drop-down menu were taken form [Font Awesome](https://fontawesome.com/)
+- Picture were re-sized and converted into webp format using [Pixlr](https://pixlr.com/)
+- Pixels or rem in CSS article [Austingil](https://austingil.com/px-or-rem-in-css/)
+- Transition property in CSS [W3school](https://www.w3schools.com/css/css3_transitions.asp)
 - The list of literary genres was taken from [Wikipedia](https://en.wikipedia.org/wiki/List_of_writing_genres)
